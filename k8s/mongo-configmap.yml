@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-configmap
+  namespace: proshop
+data:
+  database-name: proshop
+  mongo-service: mongo-service

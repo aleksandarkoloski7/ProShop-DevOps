@@ -29,3 +29,7 @@ uploads/*jpg
 
 # API tests
 http
+
+# k8s
+k8s/mongo-secret.yml
+k8s/app-secret.yml
